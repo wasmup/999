@@ -11,43 +11,33 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm p-3">
-                <div class="col">
-                    <div class="p-3 border btn btn-primary btn-block" id="up3">Up</div>
-                    <div class="border display-3" id="digit3">0</div>
-                    <div class="p-3 border btn btn-primary btn-block" id="dn3">Down</div>
-                </div>
-            </div>
-            <div class="col-sm p-3">
+    <div class="row mx-auto">
+        <div class="col p-2">
+            <div class="p-2 border btn btn-primary btn-block" id="up3">Up</div>
+            <div class="m-2 border display-4 d-flex justify-content-center bg-success text-white" id="digit3">0</div>
+            <div class="p-2 border btn btn-primary btn-block" id="dn3">Down</div>
+        </div>
+        <div class="col p-2">
+            <div class="p-2 border btn btn-primary btn-block" id="up2">Up</div>
+            <div class="m-2 border display-4 d-flex justify-content-center bg-success text-white" id="digit2">0</div>
+            <div class="p-2 border btn btn-primary btn-block" id="dn2">Down</div>
+        </div>
+        <div class="col p-2">
+            <div class="p-2 border btn btn-primary btn-block" id="up1">Up</div>
+            <div class="m-2 border display-4 d-flex justify-content-center bg-success text-white" id="digit1">0</div>
+            <div class="p-2 border btn btn-primary btn-block" id="dn1">Down</div>
+        </div>
 
-                <div class="col">
-                    <div class="p-3 border btn btn-primary btn-block" id="up2">Up</div>
-                    <div class="border display-3" id="digit2">0</div>
-                    <div class="p-3 border btn btn-primary btn-block" id="dn2">Down</div>
-                </div>
+        <div class="col p-2">
+            <div class="p-2 border border-secondary btn btn-success btn-block" id="up0">Up</div>
+            <div class="m-2 border display-4">
+                <input class="border display-4" type="number" name="stepNumber" id="stepNumber" value="5" min="1"
+                    max="999" step="1">
             </div>
-            <div class="col-sm p-3">
-                <div class="col">
-                    <div class="p-3 border btn btn-primary btn-block" id="up1">Up</div>
-                    <div class="border display-3" id="digit1">0</div>
-                    <div class="p-3 border btn btn-primary btn-block" id="dn1">Down</div>
-                </div>
-            </div>
-
-            <div class="col-sm p-3">
-                <div class="col">
-                    <div class="p-3 border border-secondary btn btn-success btn-block" id="up0">Up</div>
-                    <div class="border display-3">
-                        <input class="border display-3" type="number" name="stepNumber" id="stepNumber" value="5"
-                            min="1" max="999" step="1">
-                    </div>
-                    <div class="p-3 border border-secondary btn btn-success btn-block" id="dn0">Down</div>
-                </div>
-            </div>
+            <div class="p-2 border border-secondary btn btn-success btn-block" id="dn0">Down</div>
         </div>
     </div>
+
     <script src="index.js"></script>
 </body>
 

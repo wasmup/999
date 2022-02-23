@@ -34,3 +34,7 @@ function Count(dir) {
 }
 document.getElementById("up0").addEventListener('click', () => Count("up"));
 document.getElementById("dn0").addEventListener('click', () => Count("down"));
+
+document.getElementById("digit1").addEventListener('click', () => document.getElementById("digit1").innerText = "0");
+document.getElementById("digit2").addEventListener('click', () => document.getElementById("digit2").innerText = "0");
+document.getElementById("digit3").addEventListener('click', () => document.getElementById("digit3").innerText = "0");
